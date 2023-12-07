@@ -19,7 +19,7 @@
   [& body]
 
   ;; FIXME: errors are not pretty
-  (s/conform! &form)
+  ;; (s/conform! &form)
 
   (let [{:keys [line column]}
         (meta &form)
